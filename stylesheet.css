@@ -147,6 +147,9 @@ h5{
 
 #container{
     position: relative;
+    text-align: center;
+    margin: auto;
+    width: 1450px;
 }
 
 #customers{
