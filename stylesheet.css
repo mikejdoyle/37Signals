@@ -48,43 +48,124 @@
   color: #9BC7E6;
   text-decoration: none;
 }
+
 #active{ 
   color:#18AFE0;
 }
 
 #box{
+    position: relative;
     margin: auto;
     text-align: center;
+    width: 1200px;
 }
+
 #logo{
   margin: auto;
   padding-top: 47px;
   text-align: center;
   clear: both;
 }
+
 #banner{
+  position: absolute;
   margin: auto;
   padding: 30px;
   text-align: center;
   height: 116px;
   width: 980px;
+  left: 110px;
   font-family: "CrimsonSemibold","Times New Roman", Georgia, serif;
 }
+
+#bannerbc{
+  position: absolute;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  height: 116px;
+  width: 980px;
+  left: 115px;
+  font-family: "CrimsonSemibold","Times New Roman", Georgia, serif;
+  text-indent: -5000px;
+}
+
+#bannerbc a{
+  color: #336699;
+}
+
+#arrowbc{
+  float: left;
+  margin-left: 273px;
+  display: none;
+}
+
+#bannerhr{
+  position: absolute;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  height: 116px;
+  width: 935px;
+  left: 115px;
+  font-family: "CrimsonSemibold","Times New Roman", Georgia, serif;
+  text-indent: -5000px;
+}
+
+#bannerhr a{
+  color: #336699;
+}
+
+#arrowhr{
+  float: left;
+  margin-left: 510px;
+  display: none;
+}
+
+#bannercf{
+  position: absolute;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+  height: 116px;
+  width: 920px;
+  left: 115px;
+  font-family: "CrimsonSemibold","Times New Roman", Georgia, serif;
+  text-indent: -5000px;
+}
+
+#bannercf a{
+  color: #336699;
+}
+
+#arrowcf{
+  float: right;
+  margin-right: 260px;
+  display: none;
+}
+
 h1{
   font-size: 54px;
   color: #232323;
 }
+
+h2{
+  font-size: 46px;
+}
+
 h3{
     text-decoration: underline;
     font-weight: bold;
     color: #336699;
 }
+
 h4{
     font-size: 14px;
     font-weight: bold;
     color: #CC0000;
     padding-top: 20px;
 }
+
 h5{
   font-size: 20px;
   margin: 20px;
@@ -95,13 +176,16 @@ h5{
     color: #222;
     padding-top: 24px;
 }
+
 #buttons{
+  display: block;
   text-align: center;
   margin: auto;
-  padding-top: 62px;
-  padding-bottom: 40px;
+  padding-top: 235px;
+  padding-bottom: 10px;
   white-space: nowrap;
 }
+
 #box1{
     text-align: center;
     text-decoration: none;
@@ -131,6 +215,7 @@ h5{
     width: 186px;
     background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
 }
+
 #box3{
     text-align: center;
     text-decoration: none;
@@ -192,6 +277,7 @@ h5{
     width: 143px;
     background: url("http://37signals.com/images/img-customers.png") no-repeat 0 bottom;
 }
+
 #banner2{
     text-align: center;
     width: 850px;
@@ -212,6 +298,7 @@ h5{
     font-size: 22px;
     color: #666;
 }
+
 #paragraphs p{
     margin-bottom: 30px;
 }
@@ -223,6 +310,7 @@ h5{
     height: 50px;
     padding-top: 30px;
 }
+
 #globe{
     text-align: right;
     width: 200px;
@@ -230,6 +318,7 @@ h5{
     float: right;
     vertical-align: top;
 }
+
 .break{
     text-align: center;
     margin: auto;
